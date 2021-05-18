@@ -1,0 +1,199 @@
+/* ---------------configuration de base------------------- */
+
+*,
+::after,
+::before {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+ width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+body {
+  height: 1000px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style-type: none;
+}
+nav {
+  display: grid;
+  margin-left: 7%;
+}
+
+.menu {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 34% 11% 11% 11% 11% 11% 10.8%;
+  flex-direction: row;
+  grid-template-rows: 95%;
+  background-color: rgba(128, 128, 128, 0.267);
+  position: absolute;
+  width: 85%;
+}
+
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6,
+.nav7 {
+  display: grid;
+  align-content: space-evenly;
+  text-align: center;
+}
+
+.nav2:hover,
+.nav3:hover,
+.nav4:hover,
+.nav5:hover,
+.nav6:hover,
+.nav7:hover {
+  color: blue;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.test {
+  width: 100%;
+  height: 100%;
+}
+
+.img-bg {
+  width: 100%;
+  object-fit: cover;
+  background-size: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+/* --------------- première boite -------------------------*/
+
+.box_hello_guest {
+  background-color: rgba(128, 128, 128, 0.11);
+  width: 25%;
+  height: 60%;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 7%;
+}
+
+.blue_text {
+  color: blue;
+}
+
+.fa-fan {
+  /* position: absolute; */
+  font-size: 70px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.hello_guest {
+  margin-left: 15%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.titre_hello_guest {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+/* --------------------------------- deuxième photo ------------------------- */
+
+.box_welcome {
+  background-color: rgba(128, 128, 128, 0.288);
+  width: 25%;
+  height: 60%;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 37%;
+}
+.fa-bicycle {
+  /* position: absolute; */
+  font-size: 70px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.welcome {
+  margin-left: 15%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.titre_welcome {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+/* ------------------------ troisième photo ----------------*/
+
+.box_plane {
+  background-color: rgba(128, 128, 128, 0.11);
+  width: 25%;
+  height: 60%;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 67%;
+}
+.fa-plane {
+  /* position: absolute; */
+  font-size: 70px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.plane {
+  margin-left: 15%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.titre_plane {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+/* ---------------------------- icones reseaux sociaux ------------------------*/
+
+.icones {
+  /* position: absolute; */
+  margin-left: 35%;
+  margin-top: 35%;
+  font-size: 45px;
+}
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter,
+.fa-instagram-square,
+.fa-linkedin-in {
+  /* margin-left: 2%; */
+  /* margin-right: 2%; */
+
+  width: 70px;
+  padding-left: 3%;
+  background-color: rgba(128, 128, 128, 0.336);
+}
+
+.copyright {
+  display: flex;
+  margin-top: 25%;
+  font-size: 25px;
+}
